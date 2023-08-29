@@ -1,0 +1,37 @@
+.nav{
+    width: 100vw;
+    background-color: #fff;
+    position: fixed;
+    z-index: 3;
+}
+
+.p-30{
+    padding: 0 30px;
+}
+
+.al-center{
+    justify-content: space-between;
+    line-height: 16px;
+    padding: 22px 0 21px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.p-14 a:not(:last-child){
+    padding-right: 14px;
+}
+
+a {
+    cursor: pointer;  
+}
+
+.nav span:hover{
+    padding-bottom: 18.6px;
+    border-bottom: 1.5px black solid;
+}
+
+.d-block{
+    display: block;
+}

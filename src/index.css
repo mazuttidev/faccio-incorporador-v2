@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Minion W01,Times,Times New Roman,serif';
+
+}
+
+.h2{
+  font-family: 'Gill Sans W01,Arial,sans-serif'; 
+  font-size: 14px;
+}
+
+a{
+  font-family: 'Gill Sans W01', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: .15em;
+}
+h3{
+  font-family: 'Gill Sans W01', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: .15em;
+  font-weight: normal;
+}
+
+.font-family-gill{
+  font-family: 'Gill Sans W01', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: .1em;
+}
+.font-family-minion{
+  font-family: 'Minion W01,Times,Times New Roman,serif';
+  letter-spacing: .1em;
+}
+
+.bg-color-primary {
+  background-color: antiquewhite;
+}
+.bg-color-second {
+  background-color: white;
+}
+.bg-color-third {
+  background-color: black;
+}
