@@ -1,3 +1,39 @@
 .d-grid{
     display: grid;
 }
+footer{
+    margin: 0;
+    padding: 0;
+    right: 0;
+    bottom: 0;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+}
+.adress{
+    opacity: .58;
+}
+.pd-30{
+    padding: 0 30px;
+}
+.dev{
+    align-items: center;
+    font-size: 10px;
+}
+.mg-r-60{
+    margin-right: 80px;
+}
+.end-2-top{
+    margin-top: auto;
+    letter-spacing: 1px;
+    padding: 10px 0 40px;
+}
+.icon-chevron-up{
+    margin-right: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+}

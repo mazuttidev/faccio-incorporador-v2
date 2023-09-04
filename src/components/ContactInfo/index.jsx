@@ -8,7 +8,7 @@ export const ContactInfo = () => {
         <div className="home-text-mission change-colors">
             <div className="d-block">
                 <div className="d-flex jc-center">
-                    <a className="d-block col-2">
+                    <a className="d-block col-2 link-font">
                         <div className="d-flex txt-al-center change-colors">
                             <span className="span-icon mg-right-10"><BsHeadset /></span>
                             <div className="d-block txt-al-left">
@@ -17,7 +17,7 @@ export const ContactInfo = () => {
                             </div>
                         </div>
                     </a>
-                    <a className="d-block col-2">
+                    <a className="d-block col-2 link-font">
                         <div className="d-flex txt-al-center change-colors">
                             <span className="span-icon mg-right-10"><BsWhatsapp /></span>
                             <div className="d-block txt-al-left">
@@ -26,7 +26,7 @@ export const ContactInfo = () => {
                             </div>
                         </div>
                     </a>
-                    <a className="d-block col-3">
+                    <a className="d-block col-3 link-font">
                         <div className="d-flex txt-al-center change-colors">
                             <span className="span-icon mg-right-10"><AiOutlineMail /></span>
                             <div className="d-block txt-al-left">

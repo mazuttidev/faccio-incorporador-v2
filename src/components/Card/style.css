@@ -21,6 +21,8 @@
     height: 236px;
     left: 0;
     top: 0;
+    background-size: cover;
+    background-position: center;
 }
 
 .flag {
