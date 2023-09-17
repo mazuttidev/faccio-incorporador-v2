@@ -1,0 +1,15 @@
+.title-section {
+    height: 70px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.title-h2 {
+    margin: 0;
+    padding: 49px 60px;
+    font-size: 34px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: brown;
+}
+

@@ -27,6 +27,9 @@ h3{
   font-family: 'Minion W01,Times,Times New Roman,serif';
   letter-spacing: .1em;
 }
+.font-family-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
 .bg-color-primary {
   background-color: antiquewhite;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css"
 import { BsChevronCompactUp } from "react-icons/bs"
+import faccioLogo from '../../img/faccio_contrutora_logo.png'
 
 export const Footer = () => {
     return (
@@ -8,17 +9,16 @@ export const Footer = () => {
             <div className="d-flex jc-between pd-30">
 
                 <div className=" d-flex logo-acesso-rapido">
-                    <div className="d-block mg-r-60 ">
-                        {/* <div className="img-container">
-                            <img src="" alt="" />
-                        </div> */}
-                        <h2>FACCIO CONTRUTORA</h2>
+                    <div className="d-block mg-r-60 gap-8">
+                        <div className="footer-image">
+                            <img src={faccioLogo} alt="Faccio Construtora Logo" />
+                        </div>
                         <p className="adress">
                             Rua Fábio Salton Marodin, 95 - Sala 101 <br />
                             Bairro São Roque | CEP 95708-446 <br />
                             Bento Gonçalves - Rio Grande do Sul</p>
                     </div>
-                    <div className="d-grid">
+                    <div className="d-grid gap-8">
                         <h2>Acesso Rápido</h2>
                         <a className="link-font">Home</a>
                         <a className="link-font">Empresa</a>
@@ -34,8 +34,8 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <div className="copy pd-30 d-flex">
-                <p>Todos direitos reservados</p>
+            <div className="copy mg-top-40 pd-30 d-flex">
+                <p className="link-font">Todos direitos reservados</p>
                 <a className="dev d-flex link-font">VICTOR MAZUTTI</a>
             </div>
         </footer>

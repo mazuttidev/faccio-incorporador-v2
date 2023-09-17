@@ -11,6 +11,12 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.mg-top-40{
+    margin-top: 60px;
+}
+.gap-8{
+    row-gap: 8px;
+}
 .adress{
     opacity: .58;
 }
@@ -36,4 +42,13 @@ footer{
     align-items: center;
     justify-content: center;
     width: 20px;
+}
+.footer-image {
+    padding-top: 20px;
+}
+.footer-image img {
+    height: 70px;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
 }

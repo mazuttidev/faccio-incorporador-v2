@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import { Home } from './pages/Home';
 import { Empresa } from './pages/Empresa';
+import { Empreendimentos } from './pages/Empreendimentos';
 import { Wrapper } from './components/Wrappper';
 
 import App from './App';
@@ -23,10 +24,18 @@ const router = createBrowserRouter([
   },
   {
     path: "/empreendimentos",
-    // element: < Empreendimentos />,
+    element: < Empreendimentos />,
     children: [
       {
-        path: "/empreendimentos/ :name",
+        path: "/empreendimentos/:name",
+        // element: < PredioName />
+      },
+      {
+        path: "/empreendimentos/:name",
+        // element: < PredioName />
+      },
+      {
+        path: "/empreendimentos/:name",
         // element: < PredioName />
       }
     ]

@@ -19,6 +19,7 @@ body {
 }
 .intro-image img {
     width: 100%;
+    object-fit: cover;
     left: 0;
     top: 0;
     
@@ -217,4 +218,22 @@ a {
 
 .fnt-weight-300 {
     font-weight: 300;
+}
+
+@media (max-width: 425px){
+    .end{
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+    .col-2{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .h2-mission{
+        font-weight: bolder;
+    }
+    .p-mission{
+        letter-spacing: 1px;
+    }
 }

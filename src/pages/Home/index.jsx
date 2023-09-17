@@ -6,7 +6,12 @@ import { Card } from "../../components/Card";
 import { ContactInfo } from "../../components/ContactInfo";
 import { Principlas } from "../../components/Principals";
 
-
+import esplendoreInterno from "../../img/esplendore-externo-home.jpg"
+import esplendoreExterno from "../../img/esplendore-interno.jpg"
+import felicittaExterno from "../../img/felicitta-externo.jpeg"
+import felicittaFrontal from "../../img/felicitta-frontal.jpeg"
+import bellMont01 from "../../img/edificil.jpeg"
+import bellMont02 from "../../img/edificil.jpeg"
 
 export const Home = () => {
     //https://picsum.photos/id/237/1000/1000
@@ -45,17 +50,40 @@ export const Home = () => {
                     </div>
                 </div>
                 <div className="d-flex header">
-                    <div className="end">
-                        <button className="button-intro" type="button">CONHEÇA TUDO</button>
-                    </div>
                 </div>
                 <div className="cards">
-                    <Card />
-                    <Card />
-                    <Card />
-                    {/* <Card />
-                    <Card />
-                    <Card /> */}
+                    <Card
+                        nomeEdificio="Esplendoré"
+                        locate="Guaporé/ RS"
+                        addInfo="outra"
+                        href=""
+                        flag="NOVO"
+                        imgInterno={esplendoreInterno}
+                        imgExterno={esplendoreExterno}
+                    />
+                    <Card
+                        nomeEdificio="Felicittá"
+                        locate="Guaporé/ RS"
+                        addInfo="outra"
+                        href=""
+                        flag="NOVO"
+                        imgInterno={esplendoreInterno}
+                        imgExterno={esplendoreExterno}
+                    />
+                    <Card
+                        nomeEdificio="Bell Mont"
+                        locate="Guaporé/ RS"
+                        addInfo="outra"
+                        href=""
+                        flag="EM OBRAS"
+                        imgInterno={esplendoreInterno}
+                        imgExterno={esplendoreExterno}
+                    />
+
+
+                </div>
+                <div className="end">
+                    <button className="button-intro" type="button">CONHEÇA TUDO</button>
                 </div>
             </section>
             <div className="home-text-mission change-colors">
@@ -66,9 +94,15 @@ export const Home = () => {
                 <div className="line"></div>
                 <h2 className="font-family-gill txt-al-center fnt-weight-300">Já vendidos</h2>
                 <div className="cards">
-                    <Card />
-                    <Card />
-                    <Card />
+                    <Card
+                        nomeEdificio="Esplendoré"
+                        locate="Guaporé/ RS"
+                        addInfo="outra"
+                        href=""
+                        flag="3 UNIDADES RESTANTES"
+                        imgInterno={esplendoreInterno}
+                        imgExterno={esplendoreExterno}
+                    />
                 </div>
             </div>
             <ContactInfo />
